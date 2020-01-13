@@ -1,0 +1,101 @@
+    a:hover {
+        color:black;
+        text-decoration: none;
+      }
+    a:link {
+        color:black;   
+        text-decoration: none;  
+    }
+    a:visited {
+      color: black;
+      text-decoration: none;
+    }
+ 
+ .Titel {
+      color: black;
+      font-size: 30px;
+      text-shadow: -1px 0 #fa7f9a, 0 1px yellow, 1px 0 blueviolet, 0 -1px green;   
+      font-weight: bolder;
+      }
+.Koppen {
+  font-weight: bold;
+  font-size: 20px;
+  display:inline; margin-right:30px; margin-left:30px;
+  text-shadow: -1px 0 #fa7fbc, 0 1px yellow, 1px 0 blueviolet, 0 -1px green;  
+}
+
+.label 
+{ 
+    border-style:solid; border-width:3; padding:1; margin:0; WIDTH: 100%; 
+    HEIGHT: 40px; 
+    font-size:10 pt; 
+    font-family:Arial,Helvetica; 
+    text-align:left; 
+    text-indent:4; 
+    word-spacing:0; 
+    font-weight:bold; color:#FFFFFF; background-color:#FFFFFF
+} 
+.Text-blok1{
+  color: black;
+  font-weight: bold;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  display:inline; margin-right:30px; margin-left:30px;
+  text-shadow: -1px 0  #fa7fbc, 0 1px yellow, 1px 0 blueviolet, 0 -1px green;      
+  font-size: 20px;
+  display:inline; margin-left:20px;
+}
+.Text-blok2{
+  color: black;
+  font-weight: bold;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  display:inline; margin-right:30px; margin-left:30px;
+  text-shadow: -1px 0  #fa7fbc, 0 1px yellow, 1px 0 blueviolet, 0 -1px green;  
+  font-size: 20px;
+  display:inline; margin-left:0px;
+}
+.Text-titel{
+  display:inline; margin-left:20px;
+}
+.Datum{
+  display:inline; margin-left:20px;
+  color: grey
+}
+.Text-inhoud{
+  display:inline; margin-left:20px;
+}
+.Continue{
+  display:inline; margin-left:20px;
+  color: grey
+}
+
+.Titel2{
+  color: black;
+  font-size: 30px;
+  text-shadow: -1px 0 #fa7fbc, 0 1px yellow, 1px 0 blueviolet, 0 -1px green; 
+  font-weight: bolder;
+    }
+
+.label2{ 
+    border-style:solid; border-width:3; padding:1; margin:0; WIDTH: 100%; 
+    HEIGHT: 20px; 
+    font-size:10 pt; 
+    font-family:Arial,Helvetica; 
+    text-align:left; 
+    text-indent:4; 
+    word-spacing:0; 
+    font-weight:bold; color:#FFFFFF; background-color:#FFFFFF
+}
+
+.kleuren{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  display:inline; margin-right:30px; margin-left:30px;
+  text-shadow: -1px 0 violet, 0 1px yellowgreen, 1px 0 violet, 0 -1px yellowgreen; 
+}
+
+

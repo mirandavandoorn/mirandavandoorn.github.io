@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="CSS.CSS"> 
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+ <div class="container">
+  <header class="blog-header py-3">
+      <div class="col-15 text-center">
+        <a class="Titel" href="Mijn portfolio.html">SMART INDUSTRY & MIRANDA</a>
+    </div>
+  </div>
+</header>
+
+<div class="nav-scroller py-1 mb-2">
+  <nav class="Kopjes">
+    <a class="Koppen" href="Smart Start.html">SMART START</a>
+    <a class="Koppen" href="Smart Business.html">SMART BUSINESS</a>
+    <a class="Koppen" href="Smart Technology.html">SMART TECHNOLOGY</a>
+    <a class="Koppen" href="Smart Connection.html">SMART CONNECTION</a>
+    <a class="Koppen" href="Smart Project.html">SMART PROJECT</a>
+    </nav>
+  </div>
+  
+  <p class="label"></p>
+
+<main role="main" class="container">
+  <div class="row">
+    <div class="Titel1">
+      <h3 class="Titel2">
+        Smart Connection
+      </h3>
+      <p class="label2"></p>    
+      <div class="blog-post">
+        
+           In de connection workshops hebben we, de minor klas, ons verdiept in de wereld van HTML, CSS, JavaScript en API.
+              In het verleden heb ik vaker websites aangepast op HTML en CSS, maar dit was in programma's als WordPress. Van begin af aan een website 'schrijven' was dus wel nieuw voor mij. 
+              <br>Ik heb de filmpjes bekeken op Moodle over HTML, CSS en JAVA en de WebDev opdrachten gemaakt. Daarbij heb ik vooral veel geprobeerd op deze website, ondertussen is deze website al groen, roze en multicolor geweest. <br>
+              <br>
+             <i>Hieronder laat ik verschillende voorbeelden zien van wat ik heb geleerd, in mijn favoriete thema: eten!</i> <br><br>
+        <a name="HTML & CSS"></a><h2 class="blog-post-title">HTML & CSS</h2>   <hr>
+              Als basis voor de website heb ik een template gebruikt van Bootstrap. Met een CSS pagina daar boven op heb ik de opmaak kunnen veranderen. Zo heb ik de kopjes en links verschillende 
+              <a class="kleuren">kleuren, schaduwen en diktes</a> gegeven.<br>
+              Daarnaast denk ik dat ik met het maken van deze website een aardige HTML basiskennis heb gevormd voor mezelf.<br><br>
+              <img src="sate.jpg" widht="300" height="200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><title>I</title><rect width="100%" height="100%" fill="#55595c"></rect>
+              <img src="kersen.jpg" widht="300" height="200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><title>I</title><rect width="100%" height="100%" fill="#55595c"></rect>
+              <img src="Frikandel.jfif" widht="300" height="200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><title>I</title><rect width="100%" height="100%" fill="#55595c"></rect>
+
+            <br><br>
+            <a name="JavaScript"></a><h2 class="blog-post-title">JavaScript</h2><hr>
+            JavaScript heb ik in mijn verdere portfolio niet gebruikt. Echter snap ik nu wel hoe de Java codering in elkaar steekt.<br><br>
+             <p id="demo">Wil je weten wat mijn lievelingseten is?</p>
+
+             <button type="button" onclick="myFunction()">Klik hier!</button>
+             
+             <script>
+             function myFunction() {
+               document.getElementById("demo").innerHTML = "Boerenkool met worst";
+             }
+             </script>
+
+<br><br><a name="API"></a><h2 class="blog-post-title">API</h2><hr>
+Nog even wat ingewikkelder heb je API (application programming interface). Hierbij laat je je website communiceren met een achterliggende database. Zoals het weerbericht hieronder:
+<br><br>
+<div class="col-md-6">
+  <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+    <div class="col p-4 d-flex flex-column position-static">
+      <strong class="Text-blok2">WEER</strong>
+      <p class="Text-inhoud"><body>
+        <div id="weather">
+        <div id="description"></div>
+        <h1 id="temp"></h1>
+        <div id="location"></div>
+        <div id="pressure"></div>
+</div>
+
+<script lang="weather">
+function weatherBalloon( cityID ) {
+var key = '07eb3f10d9c4783ca1efc7d59db73fca';
+fetch('https://api.openweathermap.org/data/2.5/weather?id=' + cityID + '&appid=' + key) 
+.then(function(resp) { return resp.json() }) // Convert data to json
+.then(function(data) {
+  console.log(data);
+  drawWeather(data)
+})
+.catch(function() {
+  // catch any errors
+});
+}
+window.onload = function() {
+// city ID Nijmegen 2750052
+weatherBalloon( 2750052 );
+}
+//drawweather
+function drawWeather( d ) {
+        var celcius = Math.round(parseFloat(d.main.temp)-273.15);
+        var fahrenheit = Math.round(((parseFloat(d.main.temp)-273.15)*1.8)+32);
+        document.getElementById('description').innerHTML = d.weather[0].description;
+        document.getElementById('temp').innerHTML = celcius + '&deg;';
+        document.getElementById('location').innerHTML = d.name;
+        document.getElementById('pressure').innerHTML = d.main.pressure;
+}
+</script>
+             <br>
+  
+
+      </div><!-- /.row -->
+ 
+
+    </main><!-- /.container -->
+    <hr>
+    <footer class="blog-footer">
+        <a href="#">Back to top</a>|
+       <a href="#HTML & CSS">HTML & CSS</a>|
+      <a href="#JavaScript">JavaScript</a>|
+      <a href="#API">API</a>|
+    </footer> 
+    
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      </body>
+    </html>
